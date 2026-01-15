@@ -42,6 +42,8 @@ To allow Snowflake to securely access data stored in Amazon S3 using IAM role-ba
 - This integration defines the trusted IAM role and allowed S3 locations.
 - Snowflake uses this integration to access S3 without storing AWS credentials.
 
+## Snowflake SQL configurations related to this setup are available in the `snowflake/` directory
+
 ---
 
 ### IAM Trust Policy Update
