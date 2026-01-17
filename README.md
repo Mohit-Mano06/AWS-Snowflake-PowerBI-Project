@@ -11,6 +11,16 @@ This project demonstrates an end-to-end data analytics pipeline using cloud stor
 - Snowflake (data warehousing & SQL)
 - Power BI (data visualization)
 
+## Project Structure
+
+```text
+├── aws/           # IAM policies and S3 setup guide
+├── snowflake/     # SQL scripts for integration, loading, and transformation
+├── powerbi/       # Power BI dashboard files (.pbix)
+├── data/          # Raw data sample files
+└── images/        # Architecture diagrams
+```
+
 ## Architecture
 
 S3 → Snowflake (Storage Integration & IAM Role) → Power BI
@@ -26,6 +36,13 @@ S3 → Snowflake (Storage Integration & IAM Role) → Power BI
 ## Architecture
 
 ![Pipeline Architecture](images/pipeline_architecture.png)
+
+## Security Considerations
+
+- IAM role-based access is used instead of static credentials.
+- Snowflake accesses S3 via a storage integration and trust policy.
+- All SQL scripts are sanitized before being uploaded to GitHub.
+- No sensitive credentials or account identifiers are stored in the repository.
 
 ## Status
 
