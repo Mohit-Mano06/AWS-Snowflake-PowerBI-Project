@@ -23,6 +23,10 @@ S3 → Snowflake (Storage Integration & IAM Role) → Power BI
 4. Data is transformed using SQL inside Snowflake.
 5. Power BI connects to Snowflake for dashboard creation.
 
+## Architecture
+
+![Pipeline Architecture](images/pipeline_architecture.png)
+
 ## Status
 
 🚧 Project in progress – Snowflake transformations and Power BI dashboards under development.
