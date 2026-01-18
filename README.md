@@ -48,7 +48,7 @@ S3 → Snowflake (Storage Integration & IAM Role) → Power BI
 
 ### Dashboard Overview
 
-![Dashboard Home](powerbi/dashboard_screenshots/dashboard_homepage.png)
+![Dashboard Home](powerbi/dashboard_screenshots/dashboard_home.png)
 
 ### Rainfall Analysis
 
