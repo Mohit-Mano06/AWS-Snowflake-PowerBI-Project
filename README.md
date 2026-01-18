@@ -66,6 +66,3 @@ S3 → Snowflake (Storage Integration & IAM Role) → Power BI
 
 ![Yield Analysis](powerbi/dashboard_screenshots/yield_analysis.png)
 
-## Status
-
-🚧 Project in progress – Snowflake transformations and Power BI dashboards under development.
