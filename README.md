@@ -44,6 +44,28 @@ S3 → Snowflake (Storage Integration & IAM Role) → Power BI
 - All SQL scripts are sanitized before being uploaded to GitHub.
 - No sensitive credentials or account identifiers are stored in the repository.
 
+## Power BI Dashboard
+
+### Dashboard Overview
+
+![Dashboard Home](powerbi/dashboard_screenshots/Homepage.png)
+
+### Rainfall Analysis
+
+![Rainfall Analysis](powerbi/dashboard_screenshots/rainfall_analysis.png)
+
+### Temperature Analysis
+
+![Temperature Analysis](powerbi/dashboard_screenshots/temperature_analysis.png)
+
+### Humidity Analysis
+
+![Humidity Analysis](powerbi/dashboard_screenshots/humidity_analysis.png)
+
+### Yield Analysis
+
+![Yield Analysis](powerbi/dashboard_screenshots/yield_analysis.png)
+
 ## Status
 
 🚧 Project in progress – Snowflake transformations and Power BI dashboards under development.
