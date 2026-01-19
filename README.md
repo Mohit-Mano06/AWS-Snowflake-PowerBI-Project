@@ -17,7 +17,7 @@ This project demonstrates an end-to-end data analytics pipeline using cloud stor
 ├── aws/           # IAM policies and S3 setup guide
 ├── snowflake/     # SQL scripts for integration, loading, and transformation
 ├── powerbi/       # Power BI dashboard files (.pbix)
-├── data/          # Raw data sample files
+├── data/          # Raw data sample files and curated data csv file (after SQL based data transformation was performed)
 └── images/        # Architecture diagrams
 ```
 
